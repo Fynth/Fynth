@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Rasul</h1>
 <h3 align="center">A motivated self-made backend developer from Moscow ^_^</h3>
 
-- 🔭 I’m currently working on **CheckerGo**
-
 - 🌱 I’m currently learning **Gin, Fiber, Rust**
 
 - 💬 Ask me about **Go, Python/Django, Linux**
