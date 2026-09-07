@@ -1,5 +1,7 @@
 <div align="center">
-  <a href="mailto:rasulmagomedsaidov2002@gmail.com">
-    <img src="assets/stack.svg" alt="Rasul. Moscow. Rust, Go, Python, C. Open to backend work." width="100%" />
-  </a>
+  <img src="assets/stack.svg" alt="Rasul. Moscow. Rust, Go, Python, C. Open to backend work." width="100%" />
 </div>
+
+<p align="center">
+  <code>rasulmagomedsaidov2002@gmail.com</code>
+</p>

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1080" height="560" viewBox="0 0 1080 560" role="img" aria-labelledby="title desc">
   <title id="title">Rasul. Moscow. Languages and tools.</title>
-  <desc id="desc">Rust, Go, Python, C. PostgreSQL, SQLite, MySQL, ClickHouse, Redis. Tokio, Django, REST, Celery, Dioxus. Docker, Linux, Nginx, GitHub Actions. rasulmagomedsaidov2002@gmail.com</desc>
+  <desc id="desc">Rust, Go, Python, C. PostgreSQL, SQLite, MySQL, ClickHouse, Redis. Tokio, Django, REST, Celery, Dioxus. Docker, Linux, Nginx, GitHub Actions.</desc>
   <defs>
     <clipPath id="card">
       <rect width="1080" height="560" rx="24"/>
@@ -130,7 +130,6 @@
     <text x="882" y="456" text-anchor="middle" fill="#ead9ff" font-size="13">GitHub Actions</text>
 
     <rect x="48" y="492" width="984" height="44" rx="22" fill="url(#bar)" stroke="url(#mail)" stroke-opacity="0.55"/>
-    <text x="76" y="519" fill="#e8eef7" font-size="15">Open to backend work in Rust or Go</text>
-    <text x="1008" y="519" text-anchor="end" fill="#9dceff" font-size="14">rasulmagomedsaidov2002@gmail.com</text>
+    <text x="540" y="519" text-anchor="middle" fill="#e8eef7" font-size="15">Open to backend work in Rust or Go</text>
   </g>
 </svg>
