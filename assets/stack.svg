@@ -1,75 +1,93 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="400" viewBox="0 0 1080 400" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="460" viewBox="0 0 1080 460" role="img" aria-labelledby="title desc">
   <title id="title">Rasul. Moscow. Languages and tools.</title>
   <desc id="desc">Rust, Go, Python, C. PostgreSQL, SQLite, MySQL, ClickHouse, Redis. Tokio, Django, REST, Celery, Dioxus. Docker, Linux, Nginx, GitHub Actions.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0b0f14"/>
-      <stop offset="100%" stop-color="#12181f"/>
-    </linearGradient>
+    <style>
+      .bg { fill: #0b0f14; }
+      .frame { fill: none; stroke: #30363d; }
+      .title { fill: #f0f6fc; }
+      .sub { fill: #c9d1d9; }
+      .muted { fill: #8b949e; }
+      .tile { fill: #12181f; }
+      .chip { fill: #161b22; stroke: #30363d; }
+      .chip-t { fill: #e6edf3; }
+      @media (prefers-color-scheme: light) {
+        .bg { fill: #f6f8fa; }
+        .frame { stroke: #d0d7de; }
+        .title { fill: #1f2328; }
+        .sub { fill: #424a53; }
+        .muted { fill: #656d76; }
+        .tile { fill: #ffffff; }
+        .chip { fill: #ffffff; stroke: #d0d7de; }
+        .chip-t { fill: #1f2328; }
+      }
+    </style>
     <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#f78166"/>
-      <stop offset="45%" stop-color="#58a6ff"/>
+      <stop offset="50%" stop-color="#58a6ff"/>
       <stop offset="100%" stop-color="#3fb950"/>
     </linearGradient>
-    <radialGradient id="glow" cx="88%" cy="12%" r="42%">
-      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
-    </radialGradient>
   </defs>
 
-  <rect width="1080" height="400" rx="20" fill="url(#bg)"/>
-  <rect width="1080" height="400" rx="20" fill="url(#glow)"/>
-  <rect x="1" y="1" width="1078" height="398" rx="19" fill="none" stroke="#30363d"/>
+  <rect class="bg" width="1080" height="460" rx="20"/>
+  <rect class="frame" x="1" y="1" width="1078" height="458" rx="19"/>
 
-  <text x="48" y="42" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="6">FYNTH</text>
-  <text x="48" y="108" fill="#f0f6fc" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="56" font-weight="700">Rasul</text>
-  <text x="48" y="146" fill="#c9d1d9" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="18">Backend and systems</text>
-  <text x="1032" y="108" text-anchor="end" fill="#8b949e" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="16">Moscow</text>
-  <rect x="48" y="168" width="220" height="3" rx="2" fill="url(#rule)"/>
+  <text x="48" y="40" fill="#8b949e" class="muted" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="6">FYNTH</text>
+  <text x="48" y="92" class="title" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="44" font-weight="700">Rasul</text>
+  <text x="48" y="124" class="sub" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="16">Backend and systems · Moscow</text>
+  <rect x="48" y="140" width="180" height="3" rx="2" fill="url(#rule)"/>
 
   <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
-    <text x="48" y="222" fill="#8b949e" font-size="12" letter-spacing="3">LANGUAGES</text>
-    <rect x="200" y="200" width="86" height="34" rx="17" fill="#161b22" stroke="#f78166"/>
-    <text x="243" y="222" text-anchor="middle" fill="#f78166" font-size="14">Rust</text>
-    <rect x="296" y="200" width="72" height="34" rx="17" fill="#161b22" stroke="#58a6ff"/>
-    <text x="332" y="222" text-anchor="middle" fill="#58a6ff" font-size="14">Go</text>
-    <rect x="378" y="200" width="104" height="34" rx="17" fill="#161b22" stroke="#3fb950"/>
-    <text x="430" y="222" text-anchor="middle" fill="#3fb950" font-size="14">Python</text>
-    <rect x="492" y="200" width="58" height="34" rx="17" fill="#161b22" stroke="#a371f7"/>
-    <text x="521" y="222" text-anchor="middle" fill="#a371f7" font-size="14">C</text>
+    <rect class="tile" x="48" y="164" width="234" height="118" rx="16" stroke="#f78166" stroke-opacity="0.7"/>
+    <rect x="48" y="164" width="234" height="4" rx="2" fill="#f78166"/>
+    <text x="165" y="222" text-anchor="middle" fill="#f78166" font-size="28" font-weight="700">Rust</text>
+    <text x="165" y="252" text-anchor="middle" class="muted" font-size="13">native · async</text>
 
-    <text x="48" y="278" fill="#8b949e" font-size="12" letter-spacing="3">DATA</text>
-    <rect x="200" y="256" width="128" height="34" rx="17" fill="#161b22" stroke="#30363d"/>
-    <text x="264" y="278" text-anchor="middle" fill="#e6edf3" font-size="14">PostgreSQL</text>
-    <rect x="338" y="256" width="90" height="34" rx="17" fill="#161b22" stroke="#30363d"/>
-    <text x="383" y="278" text-anchor="middle" fill="#e6edf3" font-size="14">SQLite</text>
-    <rect x="438" y="256" width="90" height="34" rx="17" fill="#161b22" stroke="#30363d"/>
-    <text x="483" y="278" text-anchor="middle" fill="#e6edf3" font-size="14">MySQL</text>
-    <rect x="538" y="256" width="124" height="34" rx="17" fill="#161b22" stroke="#30363d"/>
-    <text x="600" y="278" text-anchor="middle" fill="#e6edf3" font-size="14">ClickHouse</text>
-    <rect x="672" y="256" width="84" height="34" rx="17" fill="#161b22" stroke="#30363d"/>
-    <text x="714" y="278" text-anchor="middle" fill="#e6edf3" font-size="14">Redis</text>
+    <rect class="tile" x="298" y="164" width="234" height="118" rx="16" stroke="#58a6ff" stroke-opacity="0.7"/>
+    <rect x="298" y="164" width="234" height="4" rx="2" fill="#58a6ff"/>
+    <text x="415" y="222" text-anchor="middle" fill="#58a6ff" font-size="28" font-weight="700">Go</text>
+    <text x="415" y="252" text-anchor="middle" class="muted" font-size="13">net/http · services</text>
 
-    <text x="48" y="334" fill="#8b949e" font-size="12" letter-spacing="3">BACKEND</text>
-    <rect x="200" y="312" width="86" height="34" rx="17" fill="#161b22" stroke="#30363d"/>
-    <text x="243" y="334" text-anchor="middle" fill="#e6edf3" font-size="14">Tokio</text>
-    <rect x="296" y="312" width="96" height="34" rx="17" fill="#161b22" stroke="#30363d"/>
-    <text x="344" y="334" text-anchor="middle" fill="#e6edf3" font-size="14">Django</text>
-    <rect x="402" y="312" width="78" height="34" rx="17" fill="#161b22" stroke="#30363d"/>
-    <text x="441" y="334" text-anchor="middle" fill="#e6edf3" font-size="14">REST</text>
-    <rect x="490" y="312" width="92" height="34" rx="17" fill="#161b22" stroke="#30363d"/>
-    <text x="536" y="334" text-anchor="middle" fill="#e6edf3" font-size="14">Celery</text>
-    <rect x="592" y="312" width="96" height="34" rx="17" fill="#161b22" stroke="#30363d"/>
-    <text x="640" y="334" text-anchor="middle" fill="#e6edf3" font-size="14">Dioxus</text>
+    <rect class="tile" x="548" y="164" width="234" height="118" rx="16" stroke="#3fb950" stroke-opacity="0.7"/>
+    <rect x="548" y="164" width="234" height="4" rx="2" fill="#3fb950"/>
+    <text x="665" y="222" text-anchor="middle" fill="#3fb950" font-size="28" font-weight="700">Python</text>
+    <text x="665" y="252" text-anchor="middle" class="muted" font-size="13">Django · scripting</text>
 
-    <text x="48" y="390" fill="#8b949e" font-size="12" letter-spacing="3">SHIP</text>
-    <rect x="200" y="368" width="92" height="34" rx="17" fill="#161b22" stroke="#30363d"/>
-    <text x="246" y="390" text-anchor="middle" fill="#e6edf3" font-size="14">Docker</text>
-    <rect x="302" y="368" width="84" height="34" rx="17" fill="#161b22" stroke="#30363d"/>
-    <text x="344" y="390" text-anchor="middle" fill="#e6edf3" font-size="14">Linux</text>
-    <rect x="396" y="368" width="86" height="34" rx="17" fill="#161b22" stroke="#30363d"/>
-    <text x="439" y="390" text-anchor="middle" fill="#e6edf3" font-size="14">Nginx</text>
-    <rect x="492" y="368" width="148" height="34" rx="17" fill="#161b22" stroke="#30363d"/>
-    <text x="566" y="390" text-anchor="middle" fill="#e6edf3" font-size="14">GitHub Actions</text>
+    <rect class="tile" x="798" y="164" width="234" height="118" rx="16" stroke="#a371f7" stroke-opacity="0.7"/>
+    <rect x="798" y="164" width="234" height="4" rx="2" fill="#a371f7"/>
+    <text x="915" y="222" text-anchor="middle" fill="#a371f7" font-size="28" font-weight="700">C</text>
+    <text x="915" y="252" text-anchor="middle" class="muted" font-size="13">systems</text>
+
+    <text x="48" y="328" class="muted" font-size="11" letter-spacing="3">DATA</text>
+    <rect class="chip" x="48" y="340" width="128" height="32" rx="16"/>
+    <text x="112" y="361" text-anchor="middle" class="chip-t" font-size="13">PostgreSQL</text>
+    <rect class="chip" x="186" y="340" width="90" height="32" rx="16"/>
+    <text x="231" y="361" text-anchor="middle" class="chip-t" font-size="13">SQLite</text>
+    <rect class="chip" x="286" y="340" width="90" height="32" rx="16"/>
+    <text x="331" y="361" text-anchor="middle" class="chip-t" font-size="13">MySQL</text>
+    <rect class="chip" x="386" y="340" width="122" height="32" rx="16"/>
+    <text x="447" y="361" text-anchor="middle" class="chip-t" font-size="13">ClickHouse</text>
+    <rect class="chip" x="518" y="340" width="82" height="32" rx="16"/>
+    <text x="559" y="361" text-anchor="middle" class="chip-t" font-size="13">Redis</text>
+
+    <text x="48" y="402" class="muted" font-size="11" letter-spacing="3">TOOLS</text>
+    <rect class="chip" x="48" y="414" width="84" height="32" rx="16"/>
+    <text x="90" y="435" text-anchor="middle" class="chip-t" font-size="13">Tokio</text>
+    <rect class="chip" x="142" y="414" width="92" height="32" rx="16"/>
+    <text x="188" y="435" text-anchor="middle" class="chip-t" font-size="13">Django</text>
+    <rect class="chip" x="244" y="414" width="76" height="32" rx="16"/>
+    <text x="282" y="435" text-anchor="middle" class="chip-t" font-size="13">REST</text>
+    <rect class="chip" x="330" y="414" width="88" height="32" rx="16"/>
+    <text x="374" y="435" text-anchor="middle" class="chip-t" font-size="13">Celery</text>
+    <rect class="chip" x="428" y="414" width="92" height="32" rx="16"/>
+    <text x="474" y="435" text-anchor="middle" class="chip-t" font-size="13">Dioxus</text>
+    <rect class="chip" x="530" y="414" width="90" height="32" rx="16"/>
+    <text x="575" y="435" text-anchor="middle" class="chip-t" font-size="13">Docker</text>
+    <rect class="chip" x="630" y="414" width="80" height="32" rx="16"/>
+    <text x="670" y="435" text-anchor="middle" class="chip-t" font-size="13">Linux</text>
+    <rect class="chip" x="720" y="414" width="82" height="32" rx="16"/>
+    <text x="761" y="435" text-anchor="middle" class="chip-t" font-size="13">Nginx</text>
+    <rect class="chip" x="812" y="414" width="140" height="32" rx="16"/>
+    <text x="882" y="435" text-anchor="middle" class="chip-t" font-size="13">GitHub Actions</text>
   </g>
 </svg>
