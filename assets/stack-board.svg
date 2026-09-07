@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="608" viewBox="0 0 1080 608" role="img" aria-labelledby="title">
+  <title id="title">Full stack</title>
+  <defs>
+    <clipPath id="board">
+      <rect width="1080" height="608" rx="24"/>
+    </clipPath>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff7b54"/>
+      <stop offset="50%" stop-color="#4da3ff"/>
+      <stop offset="100%" stop-color="#b692f6"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+  </defs>
+  <g clip-path="url(#board)">
+    <rect width="1080" height="608" fill="#070b12"/>
+    <circle cx="980" cy="40" r="160" fill="#4da3ff" opacity="0.18" filter="url(#soft)">
+      <animate attributeName="opacity" values="0.1;0.24;0.1" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="80" cy="568" r="140" fill="#ff7b54" opacity="0.14" filter="url(#soft)">
+      <animate attributeName="opacity" values="0.08;0.2;0.08" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="540" cy="304" r="180" fill="#3dd68c" opacity="0.08" filter="url(#soft)">
+      <animate attributeName="opacity" values="0.05;0.14;0.05" dur="8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <rect x="1.5" y="1.5" width="1077" height="605" rx="23" fill="none" stroke="url(#edge)" stroke-opacity="0.45"/>
+  <text x="48" y="48" fill="#ffffff" font-size="22" font-weight="700" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">Stack</text>
+  <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
+    <text x="48" y="88" fill="#ff7b54" font-size="12" letter-spacing="2" font-weight="700">RUST</text>
+    <rect x="48" y="110" width="72" height="34" rx="17" fill="#3a1710" stroke="#ff7b54" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="0.0s" repeatCount="indefinite"/></rect><text x="84.0" y="132" text-anchor="middle" fill="#ffd4c4" font-size="13">Tokio</text>
+    <rect x="130" y="110" width="72" height="34" rx="17" fill="#3a1710" stroke="#ff7b54" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="0.1s" repeatCount="indefinite"/></rect><text x="166.0" y="132" text-anchor="middle" fill="#ffd4c4" font-size="13">Axum</text>
+    <rect x="212" y="110" width="72" height="34" rx="17" fill="#3a1710" stroke="#ff7b54" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="0.2s" repeatCount="indefinite"/></rect><text x="248.0" y="132" text-anchor="middle" fill="#ffd4c4" font-size="13">Actix</text>
+    <rect x="294" y="110" width="84" height="34" rx="17" fill="#3a1710" stroke="#ff7b54" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="0.2s" repeatCount="indefinite"/></rect><text x="336.0" y="132" text-anchor="middle" fill="#ffd4c4" font-size="13">Reqwest</text>
+    <rect x="388" y="110" width="72" height="34" rx="17" fill="#3a1710" stroke="#ff7b54" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="0.3s" repeatCount="indefinite"/></rect><text x="424.0" y="132" text-anchor="middle" fill="#ffd4c4" font-size="13">Serde</text>
+    <rect x="470" y="110" width="72" height="34" rx="17" fill="#3a1710" stroke="#ff7b54" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="0.4s" repeatCount="indefinite"/></rect><text x="506.0" y="132" text-anchor="middle" fill="#ffd4c4" font-size="13">SQLx</text>
+    <rect x="552" y="110" width="76" height="34" rx="17" fill="#3a1710" stroke="#ff7b54" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="0.5s" repeatCount="indefinite"/></rect><text x="590.0" y="132" text-anchor="middle" fill="#ffd4c4" font-size="13">Diesel</text>
+    <rect x="638" y="110" width="76" height="34" rx="17" fill="#3a1710" stroke="#ff7b54" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="0.6s" repeatCount="indefinite"/></rect><text x="676.0" y="132" text-anchor="middle" fill="#ffd4c4" font-size="13">Dioxus</text>
+    <rect x="724" y="110" width="72" height="34" rx="17" fill="#3a1710" stroke="#ff7b54" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="0.6s" repeatCount="indefinite"/></rect><text x="760.0" y="132" text-anchor="middle" fill="#ffd4c4" font-size="13">Tauri</text>
+    <text x="48" y="172" fill="#4da3ff" font-size="12" letter-spacing="1" font-weight="700">GO</text>
+    <rect x="48" y="194" width="72" height="34" rx="17" fill="#0a2744" stroke="#4da3ff" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="0.7s" repeatCount="indefinite"/></rect><text x="84.0" y="216" text-anchor="middle" fill="#c8e4ff" font-size="13">Gin</text>
+    <rect x="130" y="194" width="72" height="34" rx="17" fill="#0a2744" stroke="#4da3ff" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="0.8s" repeatCount="indefinite"/></rect><text x="166.0" y="216" text-anchor="middle" fill="#c8e4ff" font-size="13">Fiber</text>
+    <rect x="212" y="194" width="72" height="34" rx="17" fill="#0a2744" stroke="#4da3ff" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="0.9s" repeatCount="indefinite"/></rect><text x="248.0" y="216" text-anchor="middle" fill="#c8e4ff" font-size="13">Echo</text>
+    <rect x="294" y="194" width="72" height="34" rx="17" fill="#0a2744" stroke="#4da3ff" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="1.0s" repeatCount="indefinite"/></rect><text x="330.0" y="216" text-anchor="middle" fill="#c8e4ff" font-size="13">GORM</text>
+    <text x="48" y="256" fill="#3dd68c" font-size="12" letter-spacing="2" font-weight="700">PYTHON</text>
+    <rect x="48" y="278" width="76" height="34" rx="17" fill="#0d2f18" stroke="#3dd68c" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="1.0s" repeatCount="indefinite"/></rect><text x="86.0" y="300" text-anchor="middle" fill="#c0f0d2" font-size="13">Django</text>
+    <rect x="134" y="278" width="72" height="34" rx="17" fill="#0d2f18" stroke="#3dd68c" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="1.1s" repeatCount="indefinite"/></rect><text x="170.0" y="300" text-anchor="middle" fill="#c0f0d2" font-size="13">DRF</text>
+    <rect x="216" y="278" width="84" height="34" rx="17" fill="#0d2f18" stroke="#3dd68c" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="1.2s" repeatCount="indefinite"/></rect><text x="258.0" y="300" text-anchor="middle" fill="#c0f0d2" font-size="13">FastAPI</text>
+    <rect x="310" y="278" width="72" height="34" rx="17" fill="#0d2f18" stroke="#3dd68c" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="1.3s" repeatCount="indefinite"/></rect><text x="346.0" y="300" text-anchor="middle" fill="#c0f0d2" font-size="13">Flask</text>
+    <rect x="392" y="278" width="92" height="34" rx="17" fill="#0d2f18" stroke="#3dd68c" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="1.4s" repeatCount="indefinite"/></rect><text x="438.0" y="300" text-anchor="middle" fill="#c0f0d2" font-size="13">Pydantic</text>
+    <rect x="494" y="278" width="108" height="34" rx="17" fill="#0d2f18" stroke="#3dd68c" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="1.4s" repeatCount="indefinite"/></rect><text x="548.0" y="300" text-anchor="middle" fill="#c0f0d2" font-size="13">SQLAlchemy</text>
+    <rect x="612" y="278" width="76" height="34" rx="17" fill="#0d2f18" stroke="#3dd68c" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="1.5s" repeatCount="indefinite"/></rect><text x="650.0" y="300" text-anchor="middle" fill="#c0f0d2" font-size="13">Celery</text>
+    <rect x="698" y="278" width="76" height="34" rx="17" fill="#0d2f18" stroke="#3dd68c" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="1.6s" repeatCount="indefinite"/></rect><text x="736.0" y="300" text-anchor="middle" fill="#c0f0d2" font-size="13">pytest</text>
+    <rect x="784" y="278" width="76" height="34" rx="17" fill="#0d2f18" stroke="#3dd68c" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="1.7s" repeatCount="indefinite"/></rect><text x="822.0" y="300" text-anchor="middle" fill="#c0f0d2" font-size="13">Pandas</text>
+    <rect x="870" y="278" width="92" height="34" rx="17" fill="#0d2f18" stroke="#3dd68c" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="1.8s" repeatCount="indefinite"/></rect><text x="916.0" y="300" text-anchor="middle" fill="#c0f0d2" font-size="13">Requests</text>
+    <text x="48" y="340" fill="#4da3ff" font-size="12" letter-spacing="2" font-weight="700">DATA</text>
+    <rect x="48" y="362" width="108" height="34" rx="17" fill="#102433" stroke="#4da3ff" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="1.8s" repeatCount="indefinite"/></rect><text x="102.0" y="384" text-anchor="middle" fill="#c8e4ff" font-size="13">PostgreSQL</text>
+    <rect x="166" y="362" width="72" height="34" rx="17" fill="#102433" stroke="#4da3ff" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="1.9s" repeatCount="indefinite"/></rect><text x="202.0" y="384" text-anchor="middle" fill="#c8e4ff" font-size="13">MySQL</text>
+    <rect x="248" y="362" width="76" height="34" rx="17" fill="#102433" stroke="#4da3ff" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="2.0s" repeatCount="indefinite"/></rect><text x="286.0" y="384" text-anchor="middle" fill="#c8e4ff" font-size="13">SQLite</text>
+    <rect x="334" y="362" width="108" height="34" rx="17" fill="#102433" stroke="#4da3ff" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="2.1s" repeatCount="indefinite"/></rect><text x="388.0" y="384" text-anchor="middle" fill="#c8e4ff" font-size="13">ClickHouse</text>
+    <rect x="452" y="362" width="72" height="34" rx="17" fill="#102433" stroke="#4da3ff" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="2.2s" repeatCount="indefinite"/></rect><text x="488.0" y="384" text-anchor="middle" fill="#c8e4ff" font-size="13">Redis</text>
+    <rect x="534" y="362" width="84" height="34" rx="17" fill="#102433" stroke="#4da3ff" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="2.2s" repeatCount="indefinite"/></rect><text x="576.0" y="384" text-anchor="middle" fill="#c8e4ff" font-size="13">MongoDB</text>
+    <text x="48" y="424" fill="#b692f6" font-size="12" letter-spacing="2" font-weight="700">BACKEND</text>
+    <rect x="48" y="446" width="72" height="34" rx="17" fill="#1a1428" stroke="#b692f6" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="2.3s" repeatCount="indefinite"/></rect><text x="84.0" y="468" text-anchor="middle" fill="#ead9ff" font-size="13">REST</text>
+    <rect x="130" y="446" width="108" height="34" rx="17" fill="#1a1428" stroke="#b692f6" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="2.4s" repeatCount="indefinite"/></rect><text x="184.0" y="468" text-anchor="middle" fill="#ead9ff" font-size="13">WebSockets</text>
+    <rect x="248" y="446" width="72" height="34" rx="17" fill="#1a1428" stroke="#b692f6" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="2.5s" repeatCount="indefinite"/></rect><text x="284.0" y="468" text-anchor="middle" fill="#ead9ff" font-size="13">gRPC</text>
+    <rect x="330" y="446" width="92" height="34" rx="17" fill="#1a1428" stroke="#b692f6" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="2.6s" repeatCount="indefinite"/></rect><text x="376.0" y="468" text-anchor="middle" fill="#ead9ff" font-size="13">RabbitMQ</text>
+    <rect x="432" y="446" width="72" height="34" rx="17" fill="#1a1428" stroke="#b692f6" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="2.6s" repeatCount="indefinite"/></rect><text x="468.0" y="468" text-anchor="middle" fill="#ead9ff" font-size="13">Kafka</text>
+    <text x="48" y="508" fill="#ff7b54" font-size="12" letter-spacing="2" font-weight="700">SHIP</text>
+    <rect x="48" y="530" width="76" height="34" rx="17" fill="#2a140e" stroke="#ff7b54" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="2.7s" repeatCount="indefinite"/></rect><text x="86.0" y="552" text-anchor="middle" fill="#ffd4c4" font-size="13">Docker</text>
+    <rect x="134" y="530" width="84" height="34" rx="17" fill="#2a140e" stroke="#ff7b54" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="2.8s" repeatCount="indefinite"/></rect><text x="176.0" y="552" text-anchor="middle" fill="#ffd4c4" font-size="13">Compose</text>
+    <rect x="228" y="530" width="72" height="34" rx="17" fill="#2a140e" stroke="#ff7b54" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="2.9s" repeatCount="indefinite"/></rect><text x="264.0" y="552" text-anchor="middle" fill="#ffd4c4" font-size="13">Linux</text>
+    <rect x="310" y="530" width="72" height="34" rx="17" fill="#2a140e" stroke="#ff7b54" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="3.0s" repeatCount="indefinite"/></rect><text x="346.0" y="552" text-anchor="middle" fill="#ffd4c4" font-size="13">Nginx</text>
+    <rect x="392" y="530" width="72" height="34" rx="17" fill="#2a140e" stroke="#ff7b54" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="3.0s" repeatCount="indefinite"/></rect><text x="428.0" y="552" text-anchor="middle" fill="#ffd4c4" font-size="13">Git</text>
+    <rect x="474" y="530" width="140" height="34" rx="17" fill="#2a140e" stroke="#ff7b54" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="3.1s" repeatCount="indefinite"/></rect><text x="544.0" y="552" text-anchor="middle" fill="#ffd4c4" font-size="13">GitHub Actions</text>
+    <rect x="624" y="530" width="72" height="34" rx="17" fill="#2a140e" stroke="#ff7b54" stroke-opacity="0.55"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="3.2s" repeatCount="indefinite"/></rect><text x="660.0" y="552" text-anchor="middle" fill="#ffd4c4" font-size="13">CI/CD</text>
+  </g>
+</svg>

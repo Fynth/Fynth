@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="560" viewBox="0 0 1080 560" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="400" viewBox="0 0 1080 400" role="img" aria-labelledby="title desc">
   <title id="title">Rasul. Moscow. Languages and tools.</title>
-  <desc id="desc">Rust, Go, Python, C. PostgreSQL, SQLite, MySQL, ClickHouse, Redis. Tokio, Django, REST, Celery, Dioxus. Docker, Linux, Nginx, GitHub Actions.</desc>
+  <desc id="desc">Rust, Go, Python, C.</desc>
   <defs>
     <clipPath id="card">
-      <rect width="1080" height="560" rx="24"/>
+      <rect width="1080" height="400" rx="24"/>
     </clipPath>
     <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#ff7b54"/>
@@ -34,22 +34,22 @@
   </defs>
 
   <g clip-path="url(#card)">
-    <rect width="1080" height="560" fill="#070b12"/>
+    <rect width="1080" height="400" fill="#070b12"/>
     <circle cx="980" cy="70" r="170" fill="#4da3ff" opacity="0.22" filter="url(#soft)">
       <animate attributeName="opacity" values="0.12;0.28;0.12" dur="7s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="120" cy="480" r="150" fill="#ff7b54" opacity="0.18" filter="url(#soft)">
+    <circle cx="120" cy="360" r="150" fill="#ff7b54" opacity="0.18" filter="url(#soft)">
       <animate attributeName="opacity" values="0.1;0.24;0.1" dur="6s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="620" cy="520" r="130" fill="#3dd68c" opacity="0.14" filter="url(#soft)">
+    <circle cx="620" cy="380" r="130" fill="#3dd68c" opacity="0.14" filter="url(#soft)">
       <animate attributeName="opacity" values="0.08;0.2;0.08" dur="8s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="860" cy="360" r="110" fill="#b692f6" opacity="0.16" filter="url(#soft)">
+    <circle cx="860" cy="300" r="110" fill="#b692f6" opacity="0.16" filter="url(#soft)">
       <animate attributeName="opacity" values="0.08;0.22;0.08" dur="5.5s" repeatCount="indefinite"/>
     </circle>
   </g>
 
-  <rect x="1.5" y="1.5" width="1077" height="557" rx="23" fill="none" stroke="url(#mail)" stroke-opacity="0.45"/>
+  <rect x="1.5" y="1.5" width="1077" height="397" rx="23" fill="none" stroke="url(#mail)" stroke-opacity="0.45"/>
 
   <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
     <text x="48" y="42" fill="#9aa4b2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="7">FYNTH</text>
@@ -97,39 +97,7 @@
       <text x="915" y="268" text-anchor="middle" fill="#ead9ff" font-size="13">systems</text>
     </g>
 
-    <text x="48" y="342" fill="#9aa4b2" font-size="11" letter-spacing="3">DATA</text>
-    <rect x="48" y="354" width="128" height="34" rx="17" fill="#102433" stroke="#4da3ff" stroke-opacity="0.45"/>
-    <text x="112" y="376" text-anchor="middle" fill="#c8e4ff" font-size="13">PostgreSQL</text>
-    <rect x="186" y="354" width="90" height="34" rx="17" fill="#102433" stroke="#4da3ff" stroke-opacity="0.45"/>
-    <text x="231" y="376" text-anchor="middle" fill="#c8e4ff" font-size="13">SQLite</text>
-    <rect x="286" y="354" width="90" height="34" rx="17" fill="#102433" stroke="#4da3ff" stroke-opacity="0.45"/>
-    <text x="331" y="376" text-anchor="middle" fill="#c8e4ff" font-size="13">MySQL</text>
-    <rect x="386" y="354" width="122" height="34" rx="17" fill="#102433" stroke="#4da3ff" stroke-opacity="0.45"/>
-    <text x="447" y="376" text-anchor="middle" fill="#c8e4ff" font-size="13">ClickHouse</text>
-    <rect x="518" y="354" width="82" height="34" rx="17" fill="#102433" stroke="#4da3ff" stroke-opacity="0.45"/>
-    <text x="559" y="376" text-anchor="middle" fill="#c8e4ff" font-size="13">Redis</text>
-
-    <text x="48" y="422" fill="#9aa4b2" font-size="11" letter-spacing="3">TOOLS</text>
-    <rect x="48" y="434" width="84" height="34" rx="17" fill="#1a1428" stroke="#b692f6" stroke-opacity="0.4"/>
-    <text x="90" y="456" text-anchor="middle" fill="#ead9ff" font-size="13">Tokio</text>
-    <rect x="142" y="434" width="92" height="34" rx="17" fill="#122018" stroke="#3dd68c" stroke-opacity="0.4"/>
-    <text x="188" y="456" text-anchor="middle" fill="#c0f0d2" font-size="13">Django</text>
-    <rect x="244" y="434" width="76" height="34" rx="17" fill="#1a1428" stroke="#b692f6" stroke-opacity="0.4"/>
-    <text x="282" y="456" text-anchor="middle" fill="#ead9ff" font-size="13">REST</text>
-    <rect x="330" y="434" width="88" height="34" rx="17" fill="#122018" stroke="#3dd68c" stroke-opacity="0.4"/>
-    <text x="374" y="456" text-anchor="middle" fill="#c0f0d2" font-size="13">Celery</text>
-    <rect x="428" y="434" width="92" height="34" rx="17" fill="#2a140e" stroke="#ff7b54" stroke-opacity="0.4"/>
-    <text x="474" y="456" text-anchor="middle" fill="#ffd4c4" font-size="13">Dioxus</text>
-    <rect x="530" y="434" width="90" height="34" rx="17" fill="#102433" stroke="#4da3ff" stroke-opacity="0.4"/>
-    <text x="575" y="456" text-anchor="middle" fill="#c8e4ff" font-size="13">Docker</text>
-    <rect x="630" y="434" width="80" height="34" rx="17" fill="#102433" stroke="#4da3ff" stroke-opacity="0.4"/>
-    <text x="670" y="456" text-anchor="middle" fill="#c8e4ff" font-size="13">Linux</text>
-    <rect x="720" y="434" width="82" height="34" rx="17" fill="#102433" stroke="#4da3ff" stroke-opacity="0.4"/>
-    <text x="761" y="456" text-anchor="middle" fill="#c8e4ff" font-size="13">Nginx</text>
-    <rect x="812" y="434" width="140" height="34" rx="17" fill="#1a1428" stroke="#b692f6" stroke-opacity="0.4"/>
-    <text x="882" y="456" text-anchor="middle" fill="#ead9ff" font-size="13">GitHub Actions</text>
-
-    <rect x="48" y="492" width="984" height="44" rx="22" fill="url(#bar)" stroke="url(#mail)" stroke-opacity="0.55"/>
-    <text x="540" y="519" text-anchor="middle" fill="#e8eef7" font-size="15">Open to backend work in Rust or Go</text>
+    <rect x="48" y="332" width="984" height="44" rx="22" fill="url(#bar)" stroke="url(#mail)" stroke-opacity="0.55"/>
+    <text x="540" y="359" text-anchor="middle" fill="#e8eef7" font-size="15">Open to backend work in Rust or Go</text>
   </g>
 </svg>
