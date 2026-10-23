@@ -8,6 +8,3 @@
   <img src="assets/stack-board.svg" alt="Stack: Rust, Go, Python, data, backend, Docker, Linux." width="100%" />
 </div>
 
-<p align="center">
-  <code>rasulmagomedsaidov2002@gmail.com</code>
-</p>
